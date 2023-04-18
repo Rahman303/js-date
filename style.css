@@ -1,0 +1,25 @@
+body{
+   background-image: url(https://wallpapercave.com/wp/wp11723610.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height:80vh;
+}
+
+html{
+   padding: 50px;
+}
+
+#clock, #user-id{
+   color: white;
+   text-align: center;
+   font-size:x-large;
+   transition: 0.3s;
+   cursor:pointer;
+}
+
+#clock:hover{
+   transform: scaleX(1.04);
+   transition: 0.3s;
+   color: blueviolet;
+}
